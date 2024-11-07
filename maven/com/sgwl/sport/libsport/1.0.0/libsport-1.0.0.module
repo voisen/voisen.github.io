@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.sgwl.sport",
+    "module": "libsport",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libsport-1.0.0.aar",
+          "url": "libsport-1.0.0.aar",
+          "size": 29090,
+          "sha512": "6be17b839bbb0b737a1503b7d718f4eae77b016d4df6a47ea7f299cad15db98f5f92c7bcf216fc43f9d78690e3ce218ef4a34a45d203b2e418c0e75c02c9058e",
+          "sha256": "f6898141def7a81aed2099dd615482b473bbe5c744ee065849783d2e5f16d250",
+          "sha1": "2b62851994b002e9a52a9dc9cf473599ec639892",
+          "md5": "b31ce4587add2a65831aa92a0f709be1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.github.voisen",
+          "module": "libmvp",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "com.github.instacart",
+          "module": "truetime-android",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libsport-1.0.0.aar",
+          "url": "libsport-1.0.0.aar",
+          "size": 29090,
+          "sha512": "6be17b839bbb0b737a1503b7d718f4eae77b016d4df6a47ea7f299cad15db98f5f92c7bcf216fc43f9d78690e3ce218ef4a34a45d203b2e418c0e75c02c9058e",
+          "sha256": "f6898141def7a81aed2099dd615482b473bbe5c744ee065849783d2e5f16d250",
+          "sha1": "2b62851994b002e9a52a9dc9cf473599ec639892",
+          "md5": "b31ce4587add2a65831aa92a0f709be1"
+        }
+      ]
+    }
+  ]
+}
